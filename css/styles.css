@@ -1,0 +1,16 @@
+div.form-group {
+    margin: auto;
+    padding-top: 10%;
+    width: 50%;
+}
+
+#btn {
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: monospace;
+    padding-top: 2%;
+    margin: 5%;
+    background: coral;
+}
