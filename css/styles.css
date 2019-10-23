@@ -6,11 +6,5 @@ div.form-group {
 
 #btn {
     margin-top: 30px;
-}
-
-h2 {
-    font-family: monospace;
-    padding-top: 2%;
-    margin: 5%;
-    background: coral;
+    margin-bottom: 40px;
 }

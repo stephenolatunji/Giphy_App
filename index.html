@@ -11,23 +11,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2>My Giphy</h2>
-        <form>
-            <div class="form-group">
-                <label>Gif Search</label>
-                <input type="text" class="form-control form-control-sm" placeholder="Enter Your Search" id="wewe">
-                <button type="button" class="btn btn-primary" id="btn">Get GIFs</button>
-            </div>
-        </form>
-        <div class="container">
-            <div class="row">
-
-            </div>
+    <nav class="navbar navbar-dark bg-primary">
+        <span class="navbar-brand mb-0 h1">My Giphy</span>
+    </nav>
+    <div class="container-fluid" id="main-container">
+        <div class="card text-white bg-dark mb-3">
+            <form>
+                <div class="form-group">
+                    <label>Gif Search</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Enter Your Search" id="search">
+                    <button type="button" class="btn btn-primary" id="btn">Get GIFs</button>
+                </div>
+            </form>
         </div>
-
+        <div class="card-deck">
+        </div>
     </div>
-    <script src=""></script>
+    <div class="card-footer text-muted"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src=“https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js”></script>
     <script src="./js/App.js"></script>
 
 </body>
